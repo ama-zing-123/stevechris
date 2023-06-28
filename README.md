@@ -7,4 +7,4 @@ Deployment my-app-service
 ## Create a Web App  
 - az webapp create --name stevechriswebapp --resource-group goldrg --plan stevechrisappplan
 ## Deploy Code to the Webapp  
-- az webapp deployment source config --name stevechrisdeployment --resource-group goldrg repo-url
+- az webapp deployment source config --name stevechrisdeployment --resource-group goldrg repo-url https://github.com/ama-zing-123/stevechris.git --branch master --manual-integration
